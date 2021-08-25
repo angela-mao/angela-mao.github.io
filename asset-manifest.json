@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb460d04.chunk.css",
+    "main.js": "/static/js/main.c9a76184.chunk.js",
+    "main.js.map": "/static/js/main.c9a76184.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.03853f5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.03853f5c.js.map",
+    "static/js/2.502ed1e8.chunk.js": "/static/js/2.502ed1e8.chunk.js",
+    "static/js/2.502ed1e8.chunk.js.map": "/static/js/2.502ed1e8.chunk.js.map",
+    "static/js/3.d86f3f9c.chunk.js": "/static/js/3.d86f3f9c.chunk.js",
+    "static/js/3.d86f3f9c.chunk.js.map": "/static/js/3.d86f3f9c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fb460d04.chunk.css.map": "/static/css/main.fb460d04.chunk.css.map",
+    "static/js/2.502ed1e8.chunk.js.LICENSE.txt": "/static/js/2.502ed1e8.chunk.js.LICENSE.txt",
+    "static/media/branch.8776d616.png": "/static/media/branch.8776d616.png",
+    "static/media/interviewRoom.9047b6de.png": "/static/media/interviewRoom.9047b6de.png",
+    "static/media/polaroid.50c87441.jpg": "/static/media/polaroid.50c87441.jpg",
+    "static/media/rpgOutput.c5094f8f.png": "/static/media/rpgOutput.c5094f8f.png",
+    "static/media/selfie.0b84e8cc.jpg": "/static/media/selfie.0b84e8cc.jpg",
+    "static/media/sudoku1.b517f90c.png": "/static/media/sudoku1.b517f90c.png",
+    "static/media/sudoku2.876f3d35.png": "/static/media/sudoku2.876f3d35.png",
+    "static/media/sudoku3.7feb4426.png": "/static/media/sudoku3.7feb4426.png",
+    "static/media/voiceflow.da2e8b6f.png": "/static/media/voiceflow.da2e8b6f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03853f5c.js",
+    "static/js/2.502ed1e8.chunk.js",
+    "static/css/main.fb460d04.chunk.css",
+    "static/js/main.c9a76184.chunk.js"
+  ]
+}

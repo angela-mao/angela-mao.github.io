@@ -1,0 +1,120 @@
+import "../styles/Experience.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import interviewRoom from "../images/interviewRoom.png";
+import voiceflow from "../images/voiceflow.png";
+import sudoku1 from "../images/sudoku1.png";
+import sudoku2 from "../images/sudoku2.png";
+import sudoku3 from "../images/sudoku3.png";
+import rpgOutput from "../images/rpgOutput.png";
+import petal1 from "../images/petal1.png";
+import petal2 from "../images/petal2.png";
+
+const Experience = () => {
+    return (
+        <div className="background">
+            <Header view="experience"/>
+            <section className="experience">
+                <h1>my experience.</h1>
+                <p>The following projects and work experience are listed in reverse chronological order.</p>
+                <div className="divider"></div>
+                <h2>practice makes perfect (pmp)</h2>
+                <p className="dates">june 2021 - july 2021</p>
+                <div className="paragraphs">
+                    <p>
+                        I joined the UW CSCxDSC Project Program in the summer which was a month long event held by
+                        the Computer Science club and Data Science club of the University of Waterloo that aimed at
+                        helping students create a side project.
+                    </p>
+                    <p>
+                        Working with 3 other team members as well as a mentor, we created a website that allows peers to
+                        video call with each other and practice answering interview questions from a number of
+                        categories, such as technical or financial. Users can also add their own categories and
+                        questions. The website was created using <b>React</b>, <b>Node.js/Express.js</b>,
+                        and <b>MySQL</b> after connecting to a remote database server on <b>AWS</b>.
+                    </p>
+                </div>
+                <img className="images" src={interviewRoom} alt="Interview Room Screen"/>
+                <div className="paragraphs">
+                    <p>
+                        During the month, I worked on creating the database to store our interview questions as well as
+                        the different tables and schemas since we needed to store the questions and the categories they
+                        fell under too. I also coded REST endpoints, specifically GET, which queried the database for
+                        all the categories of questions in our database as well as a random question from specific
+                        categories that the user selected. The GET requests were coded using the <b>npm</b> package
+                        <em> axios</em>. I also helped a fellow team member with syncing questions across the screens of
+                        the users in one room through working with event emitters in <b>Socket.io</b>. In the end, as a
+                        team we presented to a panel of judges.
+                    </p>
+                </div>
+                <div className="divider"></div>
+                <h2>to the 6ix</h2>
+                <p className="dates">january 2021</p>
+                <div className="paragraphs">
+                    <p>
+                        In January, I had the opportunity to participate in Canada's largest hackathon, Hack The North
+                        2020++. With 3 other team members we created a voice application using VoiceFlow that assisted
+                        users on activities that can be done in Toronto, such as restaurants to eat at, places to hang
+                        out at with friends and places to stay overnight. We also created a website that explained our
+                        application and had a link to the prototype (<a href="http://tothe6ix.me/">Go to website</a>).
+                    </p>
+                </div>
+                <img className="images" src={voiceflow} alt="User Flow Map"/>
+                <div className="paragraphs">
+                    <p>
+                        I helped my team plan as well as implement and connect the choice blocks in the user flow for
+                        the voice application. The entire user flow map can be seen above. I also updated the "About"
+                        page of our website with information about the voice application using <b>HTML</b> and different
+                        <b> CSS</b> classes.
+                    </p>
+                </div>
+                <div className="divider"></div>
+                <h2>sudoku</h2>
+                <p className="dates">june 2018</p>
+                <div className="paragraphs">
+                    <p>
+                        I coded a Harry Potter themed Graphical User Interface (GUI) application using <b>Java</b> that
+                        allows the user to choose from 3 levels of sudoku puzzles to solve. Each puzzle gives the player
+                        3 chances to successfully solve it. If they are unable to after 3 tries, the program will
+                        automatically exit. Users are also given a restart button for each puzzle for if they want to
+                        start the puzzle over. Multiple arrays were used to code this so that the application could
+                        compare the player's answers to the solution and determine if they were correct. I also
+                        implemented a progress bar on the main page where every time a level was successfully cleared,
+                        it would increase until all 3 were solved.
+                    </p>
+                </div>
+                <div className="imagesRow">
+                    <img className="image1" src={sudoku1} alt="Main Screen with progress bar"/>
+                    <img className="image2" src={sudoku2} alt="Difficulty Levels for Puzzles"/>
+                    <img className="image3" src={sudoku3} alt="Puzzle Board Screen"/>
+                </div>
+                <div className="divider"></div>
+                <h2>role-playing game</h2>
+                <p className="dates">april 2018</p>
+                <div className="paragraphs">
+                    <p>
+                        I coded a Angry Birds themed role-playing game (RPG) using <b>Java</b> where the user takes up
+                        the role of Red and needs to successfully finish the mini-games in order to retrieve their egg
+                        that was stolen by the pigs. I implemented a total of 6 mini-games which were unscrambling,
+                        true/false questions, multiple choice, tic-tac-toe, math questions and rock-paper-scissors. For
+                        tic-tac-toe and rock-paper-scissors, I had the program make random moves against the player and
+                        I also ensured that the player had given a valid input. I also allowed users to choose to play
+                        again if they ever lose at any of the mini-games. Lastly, I integrated a points system so
+                        players would see how many points they accumulated when they lose as well as coded a function
+                        that makes the text print slowly so players have time to read.
+                    </p>
+                </div>
+                <img className="images" src={rpgOutput} alt="Screenshot of output at beginning of RPG"/>
+            </section>
+            <Footer/>
+            <img className="first" src={petal1} alt="Petal 1"/>
+            <img className="second" src={petal2} alt="Petal 2"/>
+            <img className="third" src={petal1} alt="Petal 1"/>
+            <img className="fourth" src={petal2} alt="Petal 2"/>
+            <img className="fifth" src={petal1} alt="Petal 1"/>
+            <img className="sixth" src={petal1} alt="Petal 1"/>
+        </div>
+    );
+}
+
+export default Experience;

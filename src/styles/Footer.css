@@ -1,0 +1,50 @@
+.footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: #FFF0F0;
+    align-items: center;
+    font-family: "Garamond";
+    font-size: 3vmin;
+}
+
+.footer .contact {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .contact .disclaimer, p {
+    margin: 1% 0;
+}
+
+.footer .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .icons .icon {
+    max-width: 5vmin;
+    max-height: 4vmin;
+    margin: 0 2%;
+}
+
+.footer .contact .disclaimer {
+    font-size: 80%;
+}
+
+.footer .contact .disclaimer span {
+    font-weight: bold;
+}
+
+.footer .contact .disclaimer a {
+    text-decoration: none;
+    color: #FF6666;
+}

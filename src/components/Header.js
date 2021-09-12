@@ -17,7 +17,7 @@ const Header = (props) => {
                 <a href="/#/home" id="home">Home</a>
                 <a href="/#/about" id="about">About</a>
                 <a href="/#/experience" id="experience">Experience</a>
-                <a href="https://drive.google.com/file/d/19yAdQfhUYh0FNCfkgBKN2i5udxWX0Wcl/view?usp=sharing" id="resume">Resume</a>
+                <a href="https://drive.google.com/file/d/1hWXyaWiqcKWtwrrqpSVfQTsWVKpeYn18/view?usp=sharing" id="resume">Resume</a>
                 <DropdownButton id="icon" title={<img className="menu" src={menu} alt="Menu"/>}>
                     <Dropdown.Item href="/#/home" id="item1">Home</Dropdown.Item>
                     <Dropdown.Item href="/#/about" id="item2">About</Dropdown.Item>

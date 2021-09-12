@@ -18,6 +18,35 @@ const Experience = () => {
                 <h1>my experience.</h1>
                 <p>The following projects and work experience are listed in reverse chronological order.</p>
                 <div className="divider"></div>
+                <h2>full stack developer</h2>
+                <p className="dates">may 2021 - august 2021</p>
+                <div className="paragraphs">
+                    <p>
+                        I had the opportunity to work at Opal, LLC. which is a start up based in California. I was a
+                        part of the Social Media department which was in charge of creating Opal's social media platform
+                        from scratch.
+                    </p>
+                    <p>
+                        Along with 6 other members in my department, I helped create the platform using <b>React</b>,
+                        <b> Node.js/Express.js</b>, <b>npm</b> packages <i>axios</i> and <i>multer</i>, and a mock
+                        database in <b>SQLite</b>. This was done through weekly meetings to decide on tasks for that
+                        week and pushing code to the company repository after working on it locally. We often
+                        collaborated with the Design department as we built the frontend of pages such as the user
+                        profile based on their design mock-ups. We also collaborated with the Web/Blockchain department
+                        to determine how the user's information was stored in the <b>Redux</b> store that they set up.
+                    </p>
+                    <p>
+                        Throughout my time there, I worked on the frontend of 3+ pages, including making them
+                        responsive. I also coded a form for users which would send all of the information and images to
+                        the backend and save them in the database. I coded another page that could only be accessed by
+                        admin where they could see the form data of each user so they can review and manage the data.
+                        Lastly, in the backend, I coded up an algorithm using Promises and async/await that determined
+                        each user's points based on 4+ factors (subject to NDA; no further details available). During
+                        the few months that I was working there, I became very familiar with REST endpoints as well as
+                        coding HTTP requests in the frontend.
+                    </p>
+                </div>
+                <div className="divider"></div>
                 <h2>practice makes perfect (pmp)</h2>
                 <p className="dates">june 2021 - july 2021</p>
                 <div className="paragraphs">

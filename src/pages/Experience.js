@@ -18,6 +18,14 @@ const Experience = () => {
                 <h1>my experience.</h1>
                 <p>The following projects and work experience are listed in reverse chronological order.</p>
                 <div className="divider"></div>
+                <h2>developer</h2>
+                <p className="dates">january 2022 - april 2022</p>
+                <div className="paragraphs">
+                    <p>
+                        Incoming Developer at RBC. Coming soon :)
+                    </p>
+                </div>
+                <div className="divider"></div>
                 <h2>full stack developer</h2>
                 <p className="dates">may 2021 - august 2021</p>
                 <div className="paragraphs">

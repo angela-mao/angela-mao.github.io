@@ -22,7 +22,7 @@ const Experience = () => {
                 <p className="dates">january 2022 - april 2022</p>
                 <div className="paragraphs">
                     <p>
-                        Incoming Developer at RBC. Coming soon :)
+                        Developer at RBC. Coming soon :)
                     </p>
                 </div>
                 <div className="divider"></div>

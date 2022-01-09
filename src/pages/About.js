@@ -22,11 +22,12 @@ const About = () => {
                 <div className="paragraphs">
                     <p>
                         I am currently a second year student in the Computer Science Co-op program at the University of
-                        Waterloo who is interested in making a positive impact on people's lives. For Winter 2022, I
-                        will be taking on the position of Developer at RBC. I am looking for a Fall 2022 internship that
-                        allows me to join a supportive team where I can collaborate with motivated, talented individuals
-                        and grow professionally. I would like to be able to have fun problem solving with my team
-                        members while learning and finding ways to help others through our work 💻.
+                        Waterloo who is interested in making a positive impact on people's lives. I am also pursuing a
+                        Human-Computer Interaction specialization. Currently, I am working as a Developer at RBC. I am
+                        looking for a Fall 2022 internship that allows me to join a supportive team where I can
+                        collaborate with motivated, talented individuals and grow professionally. I would like to be
+                        able to have fun problem solving with my team members while learning and finding ways to help
+                        others through our work 💻.
                     </p>
                     <p>
                         I first started thinking about a future in the technology industry when I took a computer science

@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb460d04.chunk.css",
-    "main.js": "/static/js/main.58a83551.chunk.js",
-    "main.js.map": "/static/js/main.58a83551.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03853f5c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03853f5c.js.map",
-    "static/js/2.502ed1e8.chunk.js": "/static/js/2.502ed1e8.chunk.js",
-    "static/js/2.502ed1e8.chunk.js.map": "/static/js/2.502ed1e8.chunk.js.map",
-    "static/js/3.d86f3f9c.chunk.js": "/static/js/3.d86f3f9c.chunk.js",
-    "static/js/3.d86f3f9c.chunk.js.map": "/static/js/3.d86f3f9c.chunk.js.map",
+    "main.css": "/static/css/main.7a8fa1a1.chunk.css",
+    "main.js": "/static/js/main.08e1cc54.chunk.js",
+    "main.js.map": "/static/js/main.08e1cc54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b5aaecd1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b5aaecd1.js.map",
+    "static/js/2.76ae0203.chunk.js": "/static/js/2.76ae0203.chunk.js",
+    "static/js/2.76ae0203.chunk.js.map": "/static/js/2.76ae0203.chunk.js.map",
+    "static/js/3.5e8ba03e.chunk.js": "/static/js/3.5e8ba03e.chunk.js",
+    "static/js/3.5e8ba03e.chunk.js.map": "/static/js/3.5e8ba03e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fb460d04.chunk.css.map": "/static/css/main.fb460d04.chunk.css.map",
-    "static/js/2.502ed1e8.chunk.js.LICENSE.txt": "/static/js/2.502ed1e8.chunk.js.LICENSE.txt",
+    "static/css/main.7a8fa1a1.chunk.css.map": "/static/css/main.7a8fa1a1.chunk.css.map",
+    "static/js/2.76ae0203.chunk.js.LICENSE.txt": "/static/js/2.76ae0203.chunk.js.LICENSE.txt",
     "static/media/branch.8776d616.png": "/static/media/branch.8776d616.png",
     "static/media/interviewRoom.9047b6de.png": "/static/media/interviewRoom.9047b6de.png",
+    "static/media/lantern.69e94040.png": "/static/media/lantern.69e94040.png",
     "static/media/polaroid.50c87441.jpg": "/static/media/polaroid.50c87441.jpg",
     "static/media/rpgOutput.c5094f8f.png": "/static/media/rpgOutput.c5094f8f.png",
     "static/media/selfie.0b84e8cc.jpg": "/static/media/selfie.0b84e8cc.jpg",
@@ -23,9 +24,9 @@
     "static/media/voiceflow.da2e8b6f.png": "/static/media/voiceflow.da2e8b6f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.03853f5c.js",
-    "static/js/2.502ed1e8.chunk.js",
-    "static/css/main.fb460d04.chunk.css",
-    "static/js/main.58a83551.chunk.js"
+    "static/js/runtime-main.b5aaecd1.js",
+    "static/js/2.76ae0203.chunk.js",
+    "static/css/main.7a8fa1a1.chunk.css",
+    "static/js/main.08e1cc54.chunk.js"
   ]
 }

@@ -17,12 +17,54 @@ const Experience = () => {
             <section className="experience">
                 <h1>my experience.</h1>
                 <p>The following projects and work experience are listed in reverse chronological order.</p>
+                <h2>personal website</h2>
+                <p className="dates">august 2021 - present</p>
+                <div className="paragraphs">
+                    <p>
+                        This website is an ongoing project and was built using React, CSS and GitHub Pages. Feel free to look around :)
+                    </p>
+                </div>
+                <div className="divider"></div>
+                <h2>backend developer</h2>
+                <p className="dates">february 2022 - may 2022</p>
+                <div className="paragraphs">
+                    <p>
+                        Develop for Good is a nonprofit organization that strives "to create social impact" by helping
+                        develop applications or digital tools for other nonprofit organizations.
+                        Check them out <a href="https://developforgood.org/">here</a>.
+                    </p>
+                    <p>
+                        I specifically volunteered with The Pathway Initiative nonprofit organization to help develop
+                        the backend of their mobile application that matched minority or disadvantaged students with
+                        mentors to guide them on their path of studying medicine. This was done using the
+                        <b>AWS Management Console</b> and the <b>Amplify CLI</b>. The specific AWS services that I used
+                        were <b>API Gateway</b> and <b>DynamoDB</b>. I helped add a database that would map the
+                        relationships between mentors and mentees as well as updated the fields of the user database.
+                    </p>
+                </div>
                 <div className="divider"></div>
                 <h2>developer</h2>
                 <p className="dates">january 2022 - april 2022</p>
                 <div className="paragraphs">
                     <p>
-                        Developer at RBC. Coming soon :)
+                        I worked as a Developer on the RBC Wealth Management Technology & Solutions (WMTS) Trading
+                        Systems team. During my time there, I was recognized as one of RBC's top talent and was one of
+                        around <b>10</b> students who were showcased to the Executive Vice President of Innovation &
+                        Technology at RBC and his leadership team.
+                    </p>
+                    <p>
+                        As a part of the team, I helped generate data pipelines that parsed and ingested <b>4500+</b> log
+                        events into Elasticsearch by using the Elastic stack. I also deployed Logstash into the development
+                        and QA environment on OpenShift Container Platform while incorporating HashiCorp Vault to store
+                        secrets. All of my work helped the team centralize information which allowed the support team
+                        to troubleshoot and I furthered the team's progress of <b>transitioning to the cloud</b>.
+                    </p>
+                    <p>
+                        Some of the other things that I worked on included editing the dropdowns on the team's <b>Angular
+                        GUI</b> used to pull up trade events, deploying to the development environment using
+                        <b> Jenkins</b> and <b>Urban Code Deploy</b>, writing <b>Python</b> scripts, and developing
+                        <b> Proof of Concepts</b>. During the four months that I worked there, I consistently documented
+                        my work and tracked my progress using <b>Confluence</b> and <b>JIRA</b>.
                     </p>
                 </div>
                 <div className="divider"></div>

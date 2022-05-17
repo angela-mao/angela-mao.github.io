@@ -37,7 +37,7 @@ const Experience = () => {
                         I specifically volunteered with The Pathway Initiative nonprofit organization to help develop
                         the backend of their mobile application that matched minority or disadvantaged students with
                         mentors to guide them on their path of studying medicine. This was done using the
-                        <b>AWS Management Console</b> and the <b>Amplify CLI</b>. The specific AWS services that I used
+                        <b> AWS Management Console</b> and the <b>Amplify CLI</b>. The specific AWS services that I used
                         were <b>API Gateway</b> and <b>DynamoDB</b>. I helped add a database that would map the
                         relationships between mentors and mentees as well as updated the fields of the user database.
                     </p>
@@ -54,8 +54,8 @@ const Experience = () => {
                     </p>
                     <p>
                         As a part of the team, I helped generate data pipelines that parsed and ingested <b>4500+</b> log
-                        events into Elasticsearch by using the Elastic stack. I also deployed Logstash into the development
-                        and QA environment on OpenShift Container Platform while incorporating HashiCorp Vault to store
+                        events into <b>Elasticsearch</b> by using the Elastic stack. I also deployed <b>Logstash</b> into the development
+                        and QA environment on <b>OpenShift Container Platform</b> while incorporating <b>HashiCorp Vault</b> to store
                         secrets. All of my work helped the team centralize information which allowed the support team
                         to troubleshoot and I furthered the team's progress of <b>transitioning to the cloud</b>.
                     </p>

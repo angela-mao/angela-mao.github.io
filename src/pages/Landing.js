@@ -6,18 +6,18 @@ import "../styles/Landing.css";
 
 const Landing = () => {
     useEffect(() => {
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.15", 3000);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.25", 3100);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.35", 3200);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.5", 3300);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.65", 3400);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.75", 3500);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.85", 3600);
-        setTimeout(() => document.getElementById("welcome").style.opacity = "0.95", 3700);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.15", 2500);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.25", 2600);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.35", 2700);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.5", 2800);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.65", 2900);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.75", 3000);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.85", 3100);
+        setTimeout(() => document.getElementById("welcome").style.opacity = "0.95", 3200);
         setTimeout(() => {
             document.getElementById("welcome").style.opacity = "1";
             document.getElementById("welcome").disabled = false;
-        }, 3800);
+        }, 3300);
     }, []);
 
     return (

@@ -17,16 +17,16 @@ const About = () => {
                     <div className="year2"></div>
                     <div className="year3"></div>
                     <div className="year4"></div>
-                    <div className="year5"></div>
                 </div>
                 <div className="paragraphs">
                     <p>
-                        I am currently a second year student in the Computer Science Co-op program at the University of
+                        I am currently a third year student in the Computer Science Co-op program at the University of
                         Waterloo who is interested in making a positive impact on people's lives. I am also pursuing a
-                        Human-Computer Interaction specialization. Currently, I am looking for a Fall 2022 internship
-                        that allows me to join a supportive team where I can collaborate with motivated, talented
-                        individuals and grow professionally. I would like to be able to have fun problem solving with
-                        my team members while learning and finding ways to help others through our work 💻.
+                        Human-Computer Interaction specialization. I will be joining Wind River International Limited as
+                        a Cloud Software Developer for the fall. Currently, I am looking for a Summer 2023 internship
+                        that allows me to join a team where I can collaborate with motivated, talented individuals and
+                        grow, both professionally and personally. I would like to be able to have fun problem solving
+                        with my team members while learning and finding ways to help others through our work 💻.
                     </p>
                     <p>
                         I first started thinking about a future in the technology industry when I took a computer science

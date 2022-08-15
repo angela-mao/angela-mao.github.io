@@ -21,7 +21,16 @@ const Experience = () => {
                 <p className="dates">august 2021 - present</p>
                 <div className="paragraphs">
                     <p>
-                        This website is an ongoing project and was built using React, CSS and GitHub Pages. Feel free to look around :)
+                        This website is an ongoing project and was built using React, CSS and GitHub Pages. Feel free to
+                        look around :)
+                    </p>
+                </div>
+                <div className="divider"></div>
+                <h2>cloud software developer</h2>
+                <p className="dates">september 2022 - december 2022</p>
+                <div className="paragraphs">
+                    <p>
+                        Coming soon :)
                     </p>
                 </div>
                 <div className="divider"></div>

@@ -32,14 +32,14 @@
     align-items: center;
 }
 
-.background .about .progress .year1, .year2, .year3, .year4, .year5 {
+.background .about .progress .year1, .year2, .year3, .year4 {
     width: 4vmin;
     height: 4vmin;
     border-radius: 50%;
     border: 2px solid #FFBDBD;
 }
 
-.background .about .progress .year1, .year2 {
+.background .about .progress .year1, .year2, .year3 {
     background-color: #FFBDBD;
     box-shadow: 0 0 0 0.1vw white inset;
 }

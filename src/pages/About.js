@@ -22,8 +22,7 @@ const About = () => {
                     <p>
                         I am currently a third year student in the Computer Science Co-op program at the University of
                         Waterloo who is interested in making a positive impact on people's lives. I am also pursuing a
-                        Human-Computer Interaction specialization. I will be joining Wind River International Limited as
-                        a Cloud Software Developer for the fall. Currently, I am looking for a Summer 2023 internship
+                        Human-Computer Interaction specialization. Currently, I am looking for a Summer 2023 internship
                         that allows me to join a team where I can collaborate with motivated, talented individuals and
                         grow, both professionally and personally. I would like to be able to have fun problem solving
                         with my team members while learning and finding ways to help others through our work 💻.

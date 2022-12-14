@@ -30,7 +30,30 @@ const Experience = () => {
                 <p className="dates">september 2022 - december 2022</p>
                 <div className="paragraphs">
                     <p>
-                        Coming soon :)
+                        I worked as a Cloud Software Developer on the Platform Services team at Wind River for the Wind
+                        River Cloud Platform (WRCP). Simply put, the WRCP allows customers to deploy and manage secure
+                        distributed cloud networks, as well as manage edge clouds.
+                    </p>
+                    <p>
+                        During my time there, I was able to adapt rapidly and seamlessly run through the onboarding
+                        process while using and <b>updating</b> existing training documentation. This allowed me to be
+                        more productive and spend more time on my main project. Given a set of guidelines, I designed
+                        the algorithm and decision tree for a new command line tool that analyzed log messages from the
+                        cloud networks deployed by the WRCP to determine and report <b>20+</b> system failures and their
+                        root causes. It also reported significant events, such as servers failing to recover, and state
+                        changes, like servers disabling. Then, I implemented this new tool using <b>Python</b>,
+                        <b> object-oriented programming</b>, and the <b>Linux shell</b>. Overall, this tool decreased
+                        time spent by customers, the product verification team and the platform team for debugging and
+                        issue triaging by over <b>90%</b>. I also focused heavily on the usability of the tool by
+                        ensuring that the results printed were concise and meaningful, having the tool automatically
+                        extract archives of log messages, and packaging it into the Debian-based solution of StarlingX,
+                        an <b>open-source</b> cloud platform, which the WRCP is a commercial offering of.
+                    </p>
+                    <p>
+                        Overall, I was able to experience building a product from end-to-end. I prototyped and tested
+                        the tool using <b>fault injection testing</b> and <b>virtualization</b> technology to create
+                        <b> Linux virtual machines</b>, as well as incorporated feedback from design reviews, demos. The
+                        code was posted to <b>Gerrit</b> for review, and finally, it was merged into StarlingX.
                     </p>
                 </div>
                 <div className="divider"></div>
@@ -62,11 +85,12 @@ const Experience = () => {
                         Technology at RBC and his leadership team.
                     </p>
                     <p>
-                        As a part of the team, I helped generate data pipelines that parsed and ingested <b>4500+</b> log
-                        events into <b>Elasticsearch</b> by using the Elastic stack. I also deployed <b>Logstash</b> into the development
-                        and QA environment on <b>OpenShift Container Platform</b> while incorporating <b>HashiCorp Vault</b> to store
-                        secrets. All of my work helped the team centralize information which allowed the support team
-                        to troubleshoot and I furthered the team's progress of <b>transitioning to the cloud</b>.
+                        As a part of the team, I helped generate data pipelines that parsed and ingested <b>4500+ </b>
+                        log events into <b>Elasticsearch</b> by using the Elastic stack. I also deployed
+                        <b> Logstash</b> into the development and QA environment on <b>OpenShift Container Platform </b>
+                        while incorporating <b>HashiCorp Vault</b> to store secrets. All of my work helped the team
+                        centralize information which allowed the support team to troubleshoot and I furthered the team's
+                        progress of <b>transitioning to the cloud</b>.
                     </p>
                     <p>
                         Some of the other things that I worked on included editing the dropdowns on the team's <b>Angular
@@ -95,14 +119,14 @@ const Experience = () => {
                         to determine how the user's information was stored in the <b>Redux</b> store that they set up.
                     </p>
                     <p>
-                        Throughout my time there, I worked on the frontend of 3+ pages, including making them
+                        Throughout my time there, I worked on the frontend of <b>3+</b> pages, including making them
                         responsive. I also coded a form for users which would send all of the information and images to
                         the backend and save them in the database. I coded another page that could only be accessed by
                         admin where they could see the form data of each user so they can review and manage the data.
                         Lastly, in the backend, I coded up an algorithm using Promises and async/await that determined
-                        each user's points based on 4+ factors (subject to NDA; no further details available). During
-                        the few months that I was working there, I became very familiar with REST endpoints as well as
-                        coding HTTP requests in the frontend.
+                        each user's points based on <b>4+</b> factors (subject to NDA; no further details available).
+                        During the few months that I was working there, I became very familiar with <b>REST </b>
+                        endpoints as well as coding HTTP requests in the frontend.
                     </p>
                 </div>
                 <div className="divider"></div>

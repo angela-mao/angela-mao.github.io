@@ -182,7 +182,7 @@
 
 .sky .big img:nth-child(5) {
     left: 55%;
-    bottom: 0%;
+    bottom: -40%;
     animation: lanterns 12s linear infinite;
     animation-delay: 2s;
 }
@@ -229,7 +229,7 @@
 
 .sky .small img:nth-child(4) {
     left: 20%;
-    bottom: 0%;
+    bottom: -10%;
     animation: small_lanterns 15s linear infinite;
     animation-delay: 1s;
 }
@@ -264,21 +264,21 @@
 
 .sky .small img:nth-child(9) {
     left: 60%;
-    bottom: 0%;
+    bottom: -30%;
     animation: small_lanterns 15s linear infinite;
     animation-delay: 3s;
 }
 
 .sky .small img:nth-child(10) {
     left: 75%;
-    bottom: 0%;
+    bottom: -20%;
     animation: small_lanterns 15s linear infinite;
     animation-delay: 2s;
 }
 
 .sky .small img:nth-child(11) {
     left: 84%;
-    bottom: 0%;
+    bottom: -10%;
     animation: small_lanterns 15s linear infinite;
     animation-delay: 1s;
 }

@@ -1,4 +1,5 @@
 import lantern from "../images/lantern.png";
+import moon from "../images/moon.png";
 import "../styles/Lanterns.css";
 
 const Lanterns = () => {
@@ -26,6 +27,9 @@ const Lanterns = () => {
                 <div></div>
                 <div></div>
                 <div></div>
+            </div>
+            <div>
+                <img src={moon} alt="Moon" className="moon"/>
             </div>
             <div className="big">
                 <img src={lantern} alt="Lantern"/>

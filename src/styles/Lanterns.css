@@ -144,6 +144,15 @@
     left: 97%;
 }
 
+.sky .moon {
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px white;
+    width: 10%;
+    left: 10%;
+    top: 5%;
+    position: absolute;
+}
+
 .sky .big img {
     position: fixed;
     display: block;

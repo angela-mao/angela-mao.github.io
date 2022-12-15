@@ -42,7 +42,7 @@ const Experience = () => {
                         cloud networks deployed by the WRCP to determine and report <b>20+</b> system failures and their
                         root causes. It also reported significant events, such as servers failing to recover, and state
                         changes, like servers disabling. Then, I implemented this new tool using <b>Python</b>,
-                        <b> object-oriented programming</b>, and the <b>Linux shell</b>. Overall, this tool decreased
+                        <b> object-oriented programming</b>, and the <b>Linux shell</b>. This tool decreased
                         time spent by customers, the product verification team and the platform team for debugging and
                         issue triaging by over <b>90%</b>. I also focused heavily on the usability of the tool by
                         ensuring that the results printed were concise and meaningful, having the tool automatically
@@ -54,6 +54,9 @@ const Experience = () => {
                         the tool using <b>fault injection testing</b> and <b>virtualization</b> technology to create
                         <b> Linux virtual machines</b>, as well as incorporated feedback from design reviews, demos. The
                         code was posted to <b>Gerrit</b> for review, and finally, it was merged into StarlingX.
+                        Throughout the term, I took the initiative to develop a plan for implementation and executed it
+                        to meet preset deadlines, while consistently updating the high-level design document for the
+                        tool.
                     </p>
                 </div>
                 <div className="divider"></div>

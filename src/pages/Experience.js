@@ -37,7 +37,7 @@ const Experience = () => {
                     <p>
                         During my time there, I was able to adapt rapidly and seamlessly run through the onboarding
                         process while using and <b>updating</b> existing training documentation. This allowed me to be
-                        more productive and spend more time on my main project. Given a set of guidelines, I designed
+                        more productive and spend more time on my main project. Given a set of requirements, I designed
                         the algorithm and decision tree for a new command line tool that analyzed log messages from the
                         cloud networks deployed by the WRCP to determine and report <b>20+</b> system failures and their
                         root causes. It also reported significant events, such as servers failing to recover, and state

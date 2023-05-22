@@ -52,8 +52,8 @@ const Experience = () => {
                     <p>
                         Overall, I was able to experience building a product from end-to-end. I prototyped and tested
                         the tool using <b>fault injection testing</b> and <b>virtualization</b> technology to create
-                        <b> Linux virtual machines</b>, as well as incorporated feedback from design reviews, demos. The
-                        code was posted to <b>Gerrit</b> for review, and finally, it was merged into StarlingX.
+                        <b> Linux virtual machines</b>, as well as incorporated feedback from design reviews, and demos.
+                        The code was posted to <b>Gerrit</b> for review, and finally, it was merged into StarlingX.
                         Throughout the term, I took the initiative to develop a plan for implementation and executed it
                         to meet preset deadlines, while consistently updating the high-level design document for the
                         tool.

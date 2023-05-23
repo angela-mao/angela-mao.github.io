@@ -12,11 +12,12 @@
 .background .home {
     position: relative;
     width: 90%;
-    height: 65vh;
-    margin: 0 auto;
+    height: 80vh;
+    margin: 3% auto;
     display: flex;
     justify-content: center;
     font-family: "Space Mono", monospace;
+    padding: 3% 0;
 }
 
 .background .home .selfie {

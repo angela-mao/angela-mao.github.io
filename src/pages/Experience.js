@@ -26,6 +26,14 @@ const Experience = () => {
                     </p>
                 </div>
                 <div className="divider"></div>
+                <h2>product lead</h2>
+                <p className="dates">march 2023 - present</p>
+                <div className="paragraphs">
+                    <p>
+                        Currently working as a Product Lead at Develop for Good! Stay tuned for more :)
+                    </p>
+                </div>
+                <div className="divider"></div>
                 <h2>cloud software developer</h2>
                 <p className="dates">september 2022 - december 2022</p>
                 <div className="paragraphs">

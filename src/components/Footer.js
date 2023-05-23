@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer">
             <div className="contact">
                 <p>
-                    Feel free to reach out to me anytime or check out what I have done!
+                    Let's connect!
                 </p>
                 <div className="icons">
                     <a className="icon" href="mailto:angela.mao.am@gmail.com">
@@ -22,12 +22,12 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="disclaimer">
-                    <span>DISCLAIMER:</span> Not all of these images are mine. Picture credits:&nbsp;
+                    <span>DISCLAIMER:</span> Not all of these images are mine. Credits:&nbsp;
                     <a href="https://poesiesullalbero.blogspot.com/2019/10/perdono-alexander-shurbanov.html">
-                        Branch in Header
+                        Flower Branch
                     </a>,&nbsp;
                     <a href="https://png.is/f/petal-rgb-color-model-download-cherry-blossom-petals-picture-material/5320030010998784-201812130648.html">
-                        Falling Petals
+                        Petals
                     </a>,&nbsp;
                     <a href="https://www.iconfinder.com/icons/2044284/menu_hamburger_icon">
                         Menu Icon
@@ -40,6 +40,9 @@ const Footer = () => {
                     </a>,&nbsp;
                     <a href="https://www.iconfinder.com/icons/765246/github_media_social_icon">
                         GitHub Icon
+                    </a>,&nbsp;
+                    <a href="https://undraw.co/illustrations">
+                        Programmer
                     </a>
                 </div>
             </div>

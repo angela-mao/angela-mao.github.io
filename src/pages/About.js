@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import polaroid from "../images/polaroid.jpg";
 import petal1 from "../images/petal1.png";
 import petal2 from "../images/petal2.png";
+import programmer from "../images/Mediamodifier-Programmer.png";
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
             <Header view="about"/>
             <section className="about">
                 <h1>about me.</h1>
+                <img className="programmer" src={programmer} alt="Programmer"/>
                 <p>UW Computer Science</p>
                 <div className="progress">
                     <div className="year1"></div>

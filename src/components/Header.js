@@ -3,6 +3,7 @@ import branch from "../images/branch.png";
 import menu from "../images/menu.png";
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import "../styles/Header.css";
+import linkedin from "../images/linkedin.png";
 
 const Header = (props) => {
     useEffect(() => {
@@ -11,7 +12,9 @@ const Header = (props) => {
 
     return (
         <header className="header">
-            <img className="logo" src={branch} alt="Peach Blossom Branch"/>
+            <a className="logo" href="/#/home">
+                <img className="logo" src={branch} alt="Peach Blossom Branch"/>
+            </a>
             <p className="name">angela mao.</p>
             <nav id="navBar" className="navBar">
                 <a href="/#/home" id="home">Home</a>

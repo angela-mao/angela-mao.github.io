@@ -67,6 +67,7 @@
 .background .experience .imagesRow {
     width: 100%;
     display: flex;
+    padding-bottom: 1.5%;
 }
 
 .background .experience .image1, .image2 {

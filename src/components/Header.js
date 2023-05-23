@@ -3,12 +3,11 @@ import branch from "../images/branch.png";
 import menu from "../images/menu.png";
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import "../styles/Header.css";
-import linkedin from "../images/linkedin.png";
 
 const Header = (props) => {
     useEffect(() => {
         document.getElementById(props.view).classList.add("active");
-    }, []);
+    }, [props.view]);
 
     return (
         <header className="header">

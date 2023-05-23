@@ -154,13 +154,13 @@
 
 .fallingPetals a {
     text-decoration: none;
-    color: black;
     width: 17.5%;
     height: 7%;
 }
 
 .fallingPetals #welcome {
     opacity: 0;
+    color: black;
     display: block;
     font-size: 2vw;
     font-family: "Space Mono", monospace;

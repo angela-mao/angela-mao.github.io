@@ -10,7 +10,6 @@ import rpgOutput from "../images/rpgOutput.png";
 import petal1 from "../images/petal1.png";
 import petal2 from "../images/petal2.png";
 import reactCSS from "../images/Mediamodifier-React + CSS.png";
-import programmer from "../images/Mediamodifier-Programmer.png";
 
 const Experience = () => {
     return (
@@ -24,8 +23,8 @@ const Experience = () => {
                 <img className="reactCSS" src={reactCSS} alt="React + CSS"/>
                 <div className="paragraphs">
                     <p>
-                        This website is an ongoing project and was built using React, CSS and GitHub Pages. Feel free to
-                        look around :)
+                        This website is an ongoing project and was built using <b>React</b>, <b>CSS</b> and
+                        <b> GitHub Pages</b>. Feel free to look around :)
                     </p>
                 </div>
                 <div className="divider"></div>

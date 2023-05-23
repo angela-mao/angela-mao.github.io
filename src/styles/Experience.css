@@ -25,6 +25,14 @@
     margin: 2% 0;
 }
 
+.background .experience .reactCSS {
+    max-width: 30vmin;
+    max-height: 50vmin;
+    padding: 2% 0 1%;
+    object-fit: contain;
+    display: block;
+}
+
 .background .experience .paragraphs {
     width: 100%;
     display: flex;

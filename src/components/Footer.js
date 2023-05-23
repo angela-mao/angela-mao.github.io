@@ -42,7 +42,7 @@ const Footer = () => {
                         GitHub Icon
                     </a>,&nbsp;
                     <a href="https://undraw.co/illustrations">
-                        Programmer
+                        Undraw.co Illustrations
                     </a>
                 </div>
             </div>

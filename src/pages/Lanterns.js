@@ -28,9 +28,9 @@ const Lanterns = () => {
                 <div></div>
                 <div></div>
             </div>
-            <div>
+            <a href="/#/about" id="moon">
                 <img src={moon} alt="Moon" className="moon"/>
-            </div>
+            </a>
             <div className="big">
                 <img src={lantern} alt="Lantern"/>
                 <img src={lantern} alt="Lantern"/>

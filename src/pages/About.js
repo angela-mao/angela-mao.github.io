@@ -24,7 +24,7 @@ const About = () => {
                     <p>
                         I am currently a third year student in the Computer Science Co-op program at the University of
                         Waterloo who is interested in making a positive impact on people's lives. I am also pursuing a
-                        Human-Computer Interaction specialization. Currently, I am looking for a Summer 2023 internship
+                        Human-Computer Interaction specialization. Currently, I am looking for an internship
                         that allows me to join a team where I can collaborate with motivated, talented individuals and
                         grow, both professionally and personally. I would like to be able to have fun problem solving
                         with my team members while learning and finding ways to help others through our work 💻.
@@ -54,7 +54,7 @@ const About = () => {
                             these pieces. The writing on the right side is the word for "peach blossoms" in Mandarin.
                         </p>
                     </div>
-                    <p>Feel free to reach out to me if you have any questions!✨</p>
+                    <p>For a surprise....press the lantern✨<a href="/#/lanterns" id="lantern">🏮</a></p>
                 </div>
             </section>
             <Footer/>

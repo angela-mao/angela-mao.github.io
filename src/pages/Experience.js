@@ -9,6 +9,8 @@ import sudoku3 from "../images/sudoku3.png";
 import rpgOutput from "../images/rpgOutput.png";
 import petal1 from "../images/petal1.png";
 import petal2 from "../images/petal2.png";
+import reactCSS from "../images/Mediamodifier-React + CSS.png";
+import programmer from "../images/Mediamodifier-Programmer.png";
 
 const Experience = () => {
     return (
@@ -19,6 +21,7 @@ const Experience = () => {
                 <p>The following projects and work experience are listed in reverse chronological order.</p>
                 <h2>personal website</h2>
                 <p className="dates">august 2021 - present</p>
+                <img className="reactCSS" src={reactCSS} alt="React + CSS"/>
                 <div className="paragraphs">
                     <p>
                         This website is an ongoing project and was built using React, CSS and GitHub Pages. Feel free to

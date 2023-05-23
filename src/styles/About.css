@@ -74,6 +74,10 @@
     display: block;
 }
 
+.background .about .paragraphs #lantern {
+    text-decoration: none;
+}
+
 .background .first {
     left: 0%;
     animation: petals 12s linear infinite;

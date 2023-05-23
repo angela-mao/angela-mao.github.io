@@ -17,7 +17,7 @@ const Home = () => {
                     <p>Welcome to my website. Here you can learn all about me, including my previous experience as well
                         as my goals and interests. </p>
                     <p>Feel free to reach out to me using my contact information at the bottom. I am currently looking
-                    for a Summer 2023 internship!</p>
+                    for an internship!</p>
                     <p> </p>
                     <p className="signature">Angela Mao</p>
                 </div>

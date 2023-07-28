@@ -28,6 +28,14 @@ const Experience = () => {
                     </p>
                 </div>
                 <div className="divider"></div>
+                <h2>intermediate full stack developer</h2>
+                <p className="dates">june 2023 - present</p>
+                <div className="paragraphs">
+                    <p>
+                        Currently working as an Intermediate Full Stack Developer at fliteX! Stay tuned for more :)
+                    </p>
+                </div>
+                <div className="divider"></div>
                 <h2>product lead</h2>
                 <p className="dates">march 2023 - present</p>
                 <div className="paragraphs">

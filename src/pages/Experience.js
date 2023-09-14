@@ -28,19 +28,73 @@ const Experience = () => {
                     </p>
                 </div>
                 <div className="divider"></div>
-                <h2>intermediate full stack developer</h2>
-                <p className="dates">june 2023 - present</p>
+                <h2>product lead</h2>
+                <p className="dates">march 2023 - september 2023</p>
                 <div className="paragraphs">
                     <p>
-                        Currently working as an Intermediate Full Stack Developer at fliteX! Stay tuned for more :)
+                        Develop for Good is a nonprofit organization that strives "to create social impact" by helping
+                        develop applications or digital tools for other nonprofit organizations.
+                        Check them out <a href="https://developforgood.org/">here</a>.
+                    </p>
+                    <p>
+                        During my time as Product Lead at Develop for Good, I helped <b>review 2 nonprofit proposals </b>
+                        that the organization received to choose development projects for the student volunteers to be
+                        assigned to. I reviewed them based on a set of criteria, such as the project and
+                        organization ethics, project goals and scope, and technical requirements and feasibility. I also
+                        helped evaluate <b>116 applicants</b> for the designer and software engineer roles, as well as
+                        the product, design and engineer manager roles. Furthermore, I trained the student managers on
+                        different topics, such as how to deal with difficult clients, and ensured kickoff and weekly
+                        meetings were being organized and conducted in a professional manner.
+                    </p>
+                    <p>
+                        Throughout the summer, I managed a <b>portfolio of 3 nonprofit projects</b> and their respective
+                        volunteer teams composed of 8 students each. I helped to coordinate discussions between the
+                        engineering, design and product managers and the Program, Technology and Executive Directors of
+                        Develop for Good, as well as the meetings with the nonprofit clients. I also facilitated team
+                        communication by regularly reviewing and following up on the weekly check-in forms that each
+                        student volunteer submitted. I addressed their inquiries and assisted in resolving project
+                        blockers. Moreover, I helped <b>restaff</b> the teams over the course of the project by selecting
+                        student volunteers who demonstrated a genuine interest and had experience with the relevant
+                        tech stack. In the end, I led teams to successfully complete all of the project milestones,
+                        including the <b>statement of work</b> and <b>product requirements document</b>, along with
+                        creating <b>18+ user stories</b> and estimating their completion times. I ensured all final
+                        documentation was submitted on time and forwarded them to the clients for the handover process.
                     </p>
                 </div>
                 <div className="divider"></div>
-                <h2>product lead</h2>
-                <p className="dates">march 2023 - present</p>
+                <h2>intermediate full stack developer</h2>
+                <p className="dates">june 2023 - august 2023</p>
                 <div className="paragraphs">
                     <p>
-                        Currently working as a Product Lead at Develop for Good! Stay tuned for more :)
+                        In the summer, I worked as an Intermediate Full Stack Developer at fliteX, a company that is a
+                        part of the aviation industry and works to provide airline solutions that offer data-driven
+                        cost optimization insights to airlines.
+                    </p>
+                    <p>
+                        During my time there, I worked on debugging, building and running <b>Docker containers</b> that
+                        hosted data feeds and parsers which helped boost the company's data throughput by 125%.
+                        Furthermore, I helped improve the parsers by refactoring the <b>SQL</b> queries and conducting data
+                        cleansing and validation, resulting in improved data flow efficiency as the processing speed was
+                        halved. I also enhanced the parsers so that critical data from all the feeds were consolidated
+                        and pushed to one large SQL table in our database. On the database side, I developed
+                        <b> 5+ SQL triggers</b> and associated functions in our <b>PostgreSQL</b> databases using
+                        pgAdmin to automatically synchronize data between tables when certain conditions were met and
+                        ensure seamless updates and inserts. Moreover, I provisioned and configured a new
+                        <b> Linux virtual machine</b> on <b>Microsoft Azure</b> and established an SFTP server on it to
+                        ensure that we could have secure file transfers from clients and airlines. Having this new
+                        server and moving some of the data feeds and parsers onto it also helped offload <b>30%</b> of
+                        the CPU workload from the existing servers. I generated <b>5+ cron jobs</b> on the servers
+                        as well, which cleaned outdated data from our live databases and automatically executed scripts
+                        that efficiently parsed the streaming data from some of the data feeds.
+                    </p>
+                    <p>
+                        Additionally, I helped get a full inventory of all the different resources that the company had and
+                        illustrated a comprehensive flow diagram visualizing the overall architecture of the <b> 10+ </b>
+                        data feeds.  The diagram included the data sources, Docker containers and cron jobs, and
+                        destination PostgreSQL tables.This improved system transparency and helped employees understand
+                        how all the resources interacted, such as the servers and tables. Lastly, I spearheaded the
+                        interviewing process for 5+ candidates and helped onboard 3+ new full-time employees and interns
+                        for seamless team integration.
                     </p>
                 </div>
                 <div className="divider"></div>

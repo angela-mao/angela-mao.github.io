@@ -33,25 +33,47 @@
     display: block;
 }
 
-.background .experience .paragraphs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.background .experience .paragraphs a, a:visited {
-    color: black;
-}
-
 .background .experience .divider {
     width: 85%;
     border-bottom: 3px solid #FFBDBD;
     margin: 2% auto;
 }
 
+.background .experience .accordionItem {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background .experience button {
+    width: 100%;
+    font-family: "Space Mono", monospace;
+    font-size: 3.5vmin;
+    margin: 3% 0;
+    cursor: pointer;
+    border: 3px solid #FFBDBD;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: transparent;
+    outline: none;
+}
+
 .background .experience h2 {
     font-size: 3.5vmin;
     margin: 0 0 1%;
+}
+
+.background .experience .paragraphs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background .experience .paragraphs a, a:visited {
+    color: black;
 }
 
 .background .experience .dates {

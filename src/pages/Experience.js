@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import "../styles/Experience.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -11,6 +13,25 @@ import petal1 from "../images/petal1.png";
 import petal2 from "../images/petal2.png";
 import reactCSS from "../images/Mediamodifier-React + CSS.png";
 
+
+function AccordionItem({ title, dates, children }) {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleAccordion = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div className="accordionItem">
+            <button onClick={toggleAccordion}>
+                <h2>{title}</h2>
+                <p className="dates">{dates}</p>
+            </button>
+            {isOpen && <div className="paragraphs">{children}</div>}
+        </div>
+    );
+}
+
 const Experience = () => {
     return (
         <div className="background">
@@ -18,15 +39,25 @@ const Experience = () => {
             <section className="experience">
                 <h1>my experience.</h1>
                 <p>The following projects and work experience are listed in reverse chronological order.</p>
+                <div className="divider"></div>
                 <h2>personal website</h2>
                 <p className="dates">august 2021 - present</p>
                 <img className="reactCSS" src={reactCSS} alt="React + CSS"/>
                 <div className="paragraphs">
                     <p>
                         This website is an ongoing project and was built using <b>React</b>, <b>CSS</b> and
-                        <b> GitHub Pages</b>. Feel free to look around :)
+                        <b> GitHub Pages</b>. Feel free to press around :)
                     </p>
                 </div>
+                <AccordionItem
+                    title="software engineering intern - infrastructure (devops)"
+                    dates="january 2024 - april 2024"
+                >
+                    <p>
+                        coming soon :)
+                    </p>
+                </AccordionItem>
+                {/*
                 <div className="divider"></div>
                 <h2> software engineering intern - infrastructure (devops)</h2>
                 <p className="dates">january 2024 - april 2024</p>
@@ -35,19 +66,20 @@ const Experience = () => {
                         coming soon :)
                     </p>
                 </div>
-                <div className="divider"></div>
-                <h2>product lead</h2>
-                <p className="dates">march 2023 - september 2023</p>
-                <div className="paragraphs">
+                */}
+                <AccordionItem
+                    title="product lead"
+                    dates="march 2023 - september 2023"
+                >
                     <p>
                         Develop for Good is a nonprofit organization that strives "to create social impact" by helping
                         develop applications or digital tools for other nonprofit organizations.
                         Check them out <a href="https://developforgood.org/">here</a>.
                     </p>
                     <p>
-                        During my time as Product Lead at Develop for Good, I helped <b>review 2 nonprofit proposals </b>
-                        that the organization received to choose development projects for the student volunteers to be
-                        assigned to. I reviewed them based on a set of criteria, such as the project and
+                        During my time volunteering as Product Lead at Develop for Good, I helped <b>review 2 nonprofit
+                        proposals </b> that the organization received to choose development projects for the student
+                        volunteers to be assigned to. I reviewed them based on a set of criteria, such as the project and
                         organization ethics, project goals and scope, and technical requirements and feasibility. I also
                         helped evaluate <b>116 applicants</b> for the designer and software engineer roles, as well as
                         the product, design and engineer manager roles. Furthermore, I trained the student managers on
@@ -68,11 +100,11 @@ const Experience = () => {
                         creating <b>18+ user stories</b> and estimating their completion times. I ensured all final
                         documentation was submitted on time and forwarded them to the clients for the handover process.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>intermediate full stack developer</h2>
-                <p className="dates">june 2023 - august 2023</p>
-                <div className="paragraphs">
+                </AccordionItem>
+                <AccordionItem
+                    title="intermediate full stack developer"
+                    dates="june 2023 - august 2023"
+                >
                     <p>
                         In the summer, I worked as an Intermediate Full Stack Developer at fliteX, a company that is a
                         part of the aviation industry and works to provide airline solutions that offer data-driven
@@ -104,11 +136,11 @@ const Experience = () => {
                         interviewing process for 5+ candidates and helped onboard 3+ new full-time employees and interns
                         for seamless team integration.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>cloud software developer</h2>
-                <p className="dates">september 2022 - december 2022</p>
-                <div className="paragraphs">
+                </AccordionItem>
+                <AccordionItem
+                    title="cloud software developer"
+                    dates="september 2022 - december 2022"
+                >
                     <p>
                         I worked as a Cloud Software Developer on the Platform Services team at Wind River for the Wind
                         River Cloud Platform (WRCP). Simply put, the WRCP allows customers to deploy and manage secure
@@ -138,11 +170,11 @@ const Experience = () => {
                         to meet preset deadlines, while consistently updating the high-level design document for the
                         tool.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>backend developer</h2>
-                <p className="dates">february 2022 - may 2022</p>
-                <div className="paragraphs">
+                </AccordionItem>
+                <AccordionItem
+                    title="backend developer"
+                    dates="february 2022 - may 2022"
+                >
                     <p>
                         Develop for Good is a nonprofit organization that strives "to create social impact" by helping
                         develop applications or digital tools for other nonprofit organizations.
@@ -156,11 +188,11 @@ const Experience = () => {
                         were <b>API Gateway</b> and <b>DynamoDB</b>. I helped add a database that would map the
                         relationships between mentors and mentees as well as updated the fields of the user database.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>developer</h2>
-                <p className="dates">january 2022 - april 2022</p>
-                <div className="paragraphs">
+                </AccordionItem>
+                <AccordionItem
+                    title="developer"
+                    dates="january 2022 - april 2022"
+                >
                     <p>
                         I worked as a Developer on the RBC Wealth Management Technology & Solutions (WMTS) Trading
                         Systems team. During my time there, I was recognized as one of RBC's top talent and was one of
@@ -182,11 +214,11 @@ const Experience = () => {
                         <b> Proof of Concepts</b>. During the four months that I worked there, I consistently documented
                         my work and tracked my progress using <b>Confluence</b> and <b>JIRA</b>.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>full stack developer</h2>
-                <p className="dates">may 2021 - august 2021</p>
-                <div className="paragraphs">
+                </AccordionItem>
+                <AccordionItem
+                    title="full stack developer"
+                    dates="may 2021 - august 2021"
+                >
                     <p>
                         I had the opportunity to work at Opal, LLC. which is a start up based in California. I was a
                         part of the Social Media department which was in charge of creating Opal's social media platform
@@ -211,95 +243,103 @@ const Experience = () => {
                         During the few months that I was working there, I became very familiar with <b>REST </b>
                         endpoints as well as coding HTTP requests in the frontend.
                     </p>
-                </div>
-                <div className="divider"></div>
-                <h2>practice makes perfect (pmp)</h2>
-                <p className="dates">june 2021 - july 2021</p>
-                <div className="paragraphs">
-                    <p>
-                        I joined the UW CSCxDSC Project Program in the summer which was a month long event held by
-                        the Computer Science club and Data Science club of the University of Waterloo that aimed at
-                        helping students create a side project.
-                    </p>
-                    <p>
-                        Working with 3 other team members as well as a mentor, we created a website that allows peers to
-                        video call with each other and practice answering interview questions from a number of
-                        categories, such as technical or financial. Users can also add their own categories and
-                        questions. The website was created using <b>React</b>, <b>Node.js/Express.js</b>,
-                        and <b>MySQL</b> after connecting to a remote database server on <b>AWS</b>.
-                    </p>
-                </div>
-                <img className="images" src={interviewRoom} alt="Interview Room Screen"/>
-                <div className="paragraphs">
-                    <p>
-                        During the month, I worked on creating the database to store our interview questions as well as
-                        the different tables and schemas since we needed to store the questions and the categories they
-                        fell under too. I also coded REST endpoints, specifically GET, which queried the database for
-                        all the categories of questions in our database as well as a random question from specific
-                        categories that the user selected. The GET requests were coded using the <b>npm</b> package
-                        <em> axios</em>. I also helped a fellow team member with syncing questions across the screens of
-                        the users in one room through working with event emitters in <b>Socket.io</b>. In the end, as a
-                        team we presented to a panel of judges.
-                    </p>
-                </div>
-                <div className="divider"></div>
-                <h2>to the 6ix</h2>
-                <p className="dates">january 2021</p>
-                <div className="paragraphs">
-                    <p>
-                        In January, I had the opportunity to participate in Canada's largest hackathon, Hack The North
-                        2020++. With 3 other team members we created a voice application using VoiceFlow that assisted
-                        users on activities that can be done in Toronto, such as restaurants to eat at, places to hang
-                        out at with friends and places to stay overnight. We also created a website that explained our
-                        application and had a link to the prototype (<a href="http://tothe6ix.me/">Go to website</a>).
-                    </p>
-                </div>
-                <img className="images" src={voiceflow} alt="User Flow Map"/>
-                <div className="paragraphs">
-                    <p>
-                        I helped my team plan as well as implement and connect the choice blocks in the user flow for
-                        the voice application. The entire user flow map can be seen above. I also updated the "About"
-                        page of our website with information about the voice application using <b>HTML</b> and different
-                        <b> CSS</b> classes.
-                    </p>
-                </div>
-                <div className="divider"></div>
-                <h2>sudoku</h2>
-                <p className="dates">june 2018</p>
-                <div className="paragraphs">
-                    <p>
-                        I coded a Harry Potter themed Graphical User Interface (GUI) application using <b>Java</b> that
-                        allows the user to choose from 3 levels of sudoku puzzles to solve. Each puzzle gives the player
-                        3 chances to successfully solve it. If they are unable to after 3 tries, the program will
-                        automatically exit. Users are also given a restart button for each puzzle for if they want to
-                        start the puzzle over. Multiple arrays were used to code this so that the application could
-                        compare the player's answers to the solution and determine if they were correct. I also
-                        implemented a progress bar on the main page where every time a level was successfully cleared,
-                        it would increase until all 3 were solved.
-                    </p>
-                </div>
-                <div className="imagesRow">
-                    <img className="image1" src={sudoku1} alt="Main Screen with progress bar"/>
-                    <img className="image2" src={sudoku2} alt="Difficulty Levels for Puzzles"/>
-                    <img className="image3" src={sudoku3} alt="Puzzle Board Screen"/>
-                </div>
-                <div className="divider"></div>
-                <h2>role-playing game</h2>
-                <p className="dates">april 2018</p>
-                <div className="paragraphs">
-                    <p>
-                        I coded a Angry Birds themed role-playing game (RPG) using <b>Java</b> where the user takes up
-                        the role of Red and needs to successfully finish the mini-games in order to retrieve their egg
-                        that was stolen by the pigs. I implemented a total of 6 mini-games which were unscrambling,
-                        true/false questions, multiple choice, tic-tac-toe, math questions and rock-paper-scissors. For
-                        tic-tac-toe and rock-paper-scissors, I had the program make random moves against the player and
-                        I also ensured that the player had given a valid input. I also allowed users to choose to play
-                        again if they ever lose at any of the mini-games. Lastly, I integrated a points system so
-                        players would see how many points they accumulated when they lose as well as coded a function
-                        that makes the text print slowly so players have time to read.
-                    </p>
-                </div>
-                <img className="images" src={rpgOutput} alt="Screenshot of output at beginning of RPG"/>
+                </AccordionItem>
+                <AccordionItem
+                    title="project: practice makes perfect (pmp)"
+                    dates="june 2021 - july 2021"
+                >
+                    <div className="paragraphs">
+                        <p>
+                            I joined the UW CSCxDSC Project Program in the summer which was a month long event held by
+                            the Computer Science club and Data Science club of the University of Waterloo that aimed at
+                            helping students create a side project.
+                        </p>
+                        <p>
+                            Working with 3 other team members as well as a mentor, we created a website that allows peers to
+                            video call with each other and practice answering interview questions from a number of
+                            categories, such as technical or financial. Users can also add their own categories and
+                            questions. The website was created using <b>React</b>, <b>Node.js/Express.js</b>,
+                            and <b>MySQL</b> after connecting to a remote database server on <b>AWS</b>.
+                        </p>
+                    </div>
+                    <img className="images" src={interviewRoom} alt="Interview Room Screen"/>
+                    <div className="paragraphs">
+                        <p>
+                            During the month, I worked on creating the database to store our interview questions as well as
+                            the different tables and schemas since we needed to store the questions and the categories they
+                            fell under too. I also coded REST endpoints, specifically GET, which queried the database for
+                            all the categories of questions in our database as well as a random question from specific
+                            categories that the user selected. The GET requests were coded using the <b>npm</b> package
+                            <em> axios</em>. I also helped a fellow team member with syncing questions across the screens of
+                            the users in one room through working with event emitters in <b>Socket.io</b>. In the end, as a
+                            team we presented to a panel of judges.
+                        </p>
+                    </div>
+                </AccordionItem>
+                <AccordionItem
+                    title="project: to the 6ix"
+                    dates="january 2021"
+                >
+                    <div className="paragraphs">
+                        <p>
+                            In January, I had the opportunity to participate in Canada's largest hackathon, Hack The North
+                            2020++. With 3 other team members we created a voice application using VoiceFlow that assisted
+                            users on activities that can be done in Toronto, such as restaurants to eat at, places to hang
+                            out at with friends and places to stay overnight. We also created a website that explained our
+                            application and had a link to the prototype (<a href="http://tothe6ix.me/">Go to website</a>).
+                        </p>
+                    </div>
+                    <img className="images" src={voiceflow} alt="User Flow Map"/>
+                    <div className="paragraphs">
+                        <p>
+                            I helped my team plan as well as implement and connect the choice blocks in the user flow for
+                            the voice application. The entire user flow map can be seen above. I also updated the "About"
+                            page of our website with information about the voice application using <b>HTML</b> and different
+                            <b> CSS</b> classes.
+                        </p>
+                    </div>
+                </AccordionItem>
+                <AccordionItem
+                    title="project: sudoku"
+                    dates="june 2018"
+                >
+                    <div className="paragraphs">
+                        <p>
+                            I coded a Harry Potter themed Graphical User Interface (GUI) application using <b>Java</b> that
+                            allows the user to choose from 3 levels of sudoku puzzles to solve. Each puzzle gives the player
+                            3 chances to successfully solve it. If they are unable to after 3 tries, the program will
+                            automatically exit. Users are also given a restart button for each puzzle for if they want to
+                            start the puzzle over. Multiple arrays were used to code this so that the application could
+                            compare the player's answers to the solution and determine if they were correct. I also
+                            implemented a progress bar on the main page where every time a level was successfully cleared,
+                            it would increase until all 3 were solved.
+                        </p>
+                    </div>
+                    <div className="imagesRow">
+                        <img className="image1" src={sudoku1} alt="Main Screen with progress bar"/>
+                        <img className="image2" src={sudoku2} alt="Difficulty Levels for Puzzles"/>
+                        <img className="image3" src={sudoku3} alt="Puzzle Board Screen"/>
+                    </div>
+                </AccordionItem>
+                <AccordionItem
+                    title="role-playing game"
+                    dates="april 2018"
+                >
+                    <div className="paragraphs">
+                        <p>
+                            I coded a Angry Birds themed role-playing game (RPG) using <b>Java</b> where the user takes up
+                            the role of Red and needs to successfully finish the mini-games in order to retrieve their egg
+                            that was stolen by the pigs. I implemented a total of 6 mini-games which were unscrambling,
+                            true/false questions, multiple choice, tic-tac-toe, math questions and rock-paper-scissors. For
+                            tic-tac-toe and rock-paper-scissors, I had the program make random moves against the player and
+                            I also ensured that the player had given a valid input. I also allowed users to choose to play
+                            again if they ever lose at any of the mini-games. Lastly, I integrated a points system so
+                            players would see how many points they accumulated when they lose as well as coded a function
+                            that makes the text print slowly so players have time to read.
+                        </p>
+                    </div>
+                    <img className="images" src={rpgOutput} alt="Screenshot of output at beginning of RPG"/>
+                </AccordionItem>
             </section>
             <Footer/>
             <img className="first" src={petal1} alt="Petal 1"/>

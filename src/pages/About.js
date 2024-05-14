@@ -22,7 +22,7 @@ const About = () => {
                 </div>
                 <div className="paragraphs">
                     <p>
-                        I am currently a third year student in the Computer Science Co-op program at the University of
+                        I am currently a fourth year student in the Computer Science Co-op program at the University of
                         Waterloo who is interested in making a positive impact on people's lives. I am also pursuing a
                         Human-Computer Interaction specialization. Currently, I am looking for an internship
                         that allows me to join a team where I can collaborate with motivated, talented individuals and
@@ -40,8 +40,8 @@ const About = () => {
                         I enjoy being able to create something that I envision, just like this website!
                     </p>
                     <p>
-                        In the future, I hope to be able to use my skills for social good, such as improving people's
-                        quality of life or contributing to the healthcare industry, specifically medical technology.
+                        In the future, I hope to be able to use my skills to make a positive impact in my community,
+                        such as improving people's quality of life or contributing to the healthcare industry.
                         Other areas I am interested in is Internet of Things and DevOps.
                     </p>
                     <div className="interests">

@@ -28,6 +28,14 @@ const Experience = () => {
                     </p>
                 </div>
                 <div className="divider"></div>
+                <h2> software engineering intern - infrastructure (devops)</h2>
+                <p className="dates">january 2024 - april 2024</p>
+                <div className="paragraphs">
+                    <p>
+                        coming soon :)
+                    </p>
+                </div>
+                <div className="divider"></div>
                 <h2>product lead</h2>
                 <p className="dates">march 2023 - september 2023</p>
                 <div className="paragraphs">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.307974d2.css",
-    "main.js": "/static/js/main.375e4dc5.js",
+    "main.js": "/static/js/main.68b1b761.js",
     "static/js/453.1182cff4.chunk.js": "/static/js/453.1182cff4.chunk.js",
     "static/media/polaroid.jpg": "/static/media/polaroid.50c87441d783a6a18654.jpg",
     "static/media/lantern.png": "/static/media/lantern.69e9404085b1746e7d21.png",
@@ -18,11 +18,11 @@
     "static/media/moon.png": "/static/media/moon.3854d1405bbb4a1a7895.png",
     "index.html": "/index.html",
     "main.307974d2.css.map": "/static/css/main.307974d2.css.map",
-    "main.375e4dc5.js.map": "/static/js/main.375e4dc5.js.map",
+    "main.68b1b761.js.map": "/static/js/main.68b1b761.js.map",
     "453.1182cff4.chunk.js.map": "/static/js/453.1182cff4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307974d2.css",
-    "static/js/main.375e4dc5.js"
+    "static/js/main.68b1b761.js"
   ]
 }

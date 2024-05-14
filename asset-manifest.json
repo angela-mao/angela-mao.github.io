@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.307974d2.css",
-    "main.js": "/static/js/main.68b1b761.js",
+    "main.css": "/static/css/main.6bab014c.css",
+    "main.js": "/static/js/main.715c610b.js",
     "static/js/453.1182cff4.chunk.js": "/static/js/453.1182cff4.chunk.js",
     "static/media/polaroid.jpg": "/static/media/polaroid.50c87441d783a6a18654.jpg",
     "static/media/lantern.png": "/static/media/lantern.69e9404085b1746e7d21.png",
@@ -17,12 +17,12 @@
     "static/media/rpgOutput.png": "/static/media/rpgOutput.c5094f8fe4ab990b4d48.png",
     "static/media/moon.png": "/static/media/moon.3854d1405bbb4a1a7895.png",
     "index.html": "/index.html",
-    "main.307974d2.css.map": "/static/css/main.307974d2.css.map",
-    "main.68b1b761.js.map": "/static/js/main.68b1b761.js.map",
+    "main.6bab014c.css.map": "/static/css/main.6bab014c.css.map",
+    "main.715c610b.js.map": "/static/js/main.715c610b.js.map",
     "453.1182cff4.chunk.js.map": "/static/js/453.1182cff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.307974d2.css",
-    "static/js/main.68b1b761.js"
+    "static/css/main.6bab014c.css",
+    "static/js/main.715c610b.js"
   ]
 }
